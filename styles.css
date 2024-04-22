@@ -1,0 +1,113 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+body {
+    background-color: #F4D04E;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: 'extra bold';
+    src: url('./assets/fonts/static/Figtree-ExtraBold.ttf'),
+         url('./assets/fonts/static/Figtree-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'main font';
+    src: url('./assets/fonts/Figtree-VariableFont_wght.ttf'),
+         url('./assets/fonts/Figtree-Italic-VariableFont_wght.ttf');
+}
+
+.blog__card-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 1.5em;
+    width: 384px;
+    height: 522px;
+    box-shadow: 10px 10px 2px;
+    background-color: white;
+}
+
+.image__container {
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    width: 336px;
+    height: 200px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog__category {
+    background-color: #F4D04E;
+    border-radius: 4px;
+    padding: 0.285em 0.857em;
+    width: 82px;
+    height: 29px;
+    font-family: 'extra bold';
+    font-size:  0.875rem;
+}
+
+.blog__date {
+    width: 160px;
+    height: 21px;
+    font-size: 0.875rem;
+    margin-top: 0.714rem;
+    margin-bottom: 0.714rem;
+    font-family: 'main font';
+}
+
+.blog__title {
+    width: 336px;
+    height: 36px;
+    font-family: 'extra bold';
+    font-size: 1.5rem;
+    margin-bottom: .416rem;
+}
+
+.blog__description {
+    width: 336px;
+    height: 72px;
+    max-width: 40ch;
+    font-family: 'main font';
+    color: grey;
+    font-weight: 150;
+    font-size: 1rem;
+    margin-bottom: 0.625rem;
+}
+
+.author__section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 129px;
+    height: 34px;
+    margin: 0.714rem 0;
+}
+
+.author__avatar {
+    width: 32px;
+    height: 32px;
+}
+
+.author {
+    font-family: 'extra bold';
+    font-size: 0.875rem;
+}
