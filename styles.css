@@ -88,9 +88,9 @@ body {
     max-width: 40ch;
     font-family: 'main font';
     color: grey;
-    font-weight: 150;
+    font-weight: 300;
     font-size: 1rem;
-    margin-bottom: 0.625rem;
+    margin-top: 0.5rem;
 }
 
 .author__section {
@@ -99,7 +99,7 @@ body {
     align-items: center;
     width: 129px;
     height: 34px;
-    margin: 0.714rem 0;
+    margin-top: auto;
 }
 
 .author__avatar {
