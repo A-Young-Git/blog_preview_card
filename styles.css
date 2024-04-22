@@ -37,7 +37,9 @@ body {
     padding: 1.5em;
     width: 384px;
     height: 522px;
-    box-shadow: 10px 10px 2px;
+    box-shadow: 
+        10px 10px 2px,
+        -1px -1px 1px;
     background-color: white;
 }
 
@@ -88,7 +90,7 @@ body {
     max-width: 40ch;
     font-family: 'main font';
     color: grey;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 1rem;
     margin-top: 0.5rem;
 }
